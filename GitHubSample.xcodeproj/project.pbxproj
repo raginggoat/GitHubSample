@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		0E97B5151E2D1E7D004DC25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B5141E2D1E7D004DC25B /* AppDelegate.swift */; };
 		0E97B5171E2D1E7D004DC25B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B5161E2D1E7D004DC25B /* FirstViewController.swift */; };
-		0E97B5191E2D1E7D004DC25B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B5181E2D1E7D004DC25B /* SecondViewController.swift */; };
 		0E97B51C1E2D1E7D004DC25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E97B51A1E2D1E7D004DC25B /* Main.storyboard */; };
 		0E97B51E1E2D1E7D004DC25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E97B51D1E2D1E7D004DC25B /* Assets.xcassets */; };
 		0E97B5211E2D1E7D004DC25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E97B51F1E2D1E7D004DC25B /* LaunchScreen.storyboard */; };
+		0E97B52A1E2D22F6004DC25B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B5291E2D22F6004DC25B /* SwiftyJSON.swift */; };
+		0E97B52D1E2D2C47004DC25B /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B52C1E2D2C47004DC25B /* ReposTableViewController.swift */; };
+		0E97B52F1E2D3DC6004DC25B /* RepoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B52E1E2D3DC6004DC25B /* RepoDetailTableViewController.swift */; };
+		0E97B5331E2D5097004DC25B /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97B5321E2D5097004DC25B /* FavoritesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E97B5111E2D1E7D004DC25B /* GitHubSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E97B5141E2D1E7D004DC25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E97B5161E2D1E7D004DC25B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0E97B5181E2D1E7D004DC25B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0E97B51B1E2D1E7D004DC25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E97B51D1E2D1E7D004DC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E97B5201E2D1E7D004DC25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E97B5221E2D1E7D004DC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E97B5291E2D22F6004DC25B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0E97B52C1E2D2C47004DC25B /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
+		0E97B52E1E2D3DC6004DC25B /* RepoDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoDetailTableViewController.swift; sourceTree = "<group>"; };
+		0E97B5321E2D5097004DC25B /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		0E97B5131E2D1E7D004DC25B /* GitHubSample */ = {
 			isa = PBXGroup;
 			children = (
+				0E97B5291E2D22F6004DC25B /* SwiftyJSON.swift */,
 				0E97B5141E2D1E7D004DC25B /* AppDelegate.swift */,
 				0E97B5161E2D1E7D004DC25B /* FirstViewController.swift */,
-				0E97B5181E2D1E7D004DC25B /* SecondViewController.swift */,
+				0E97B52C1E2D2C47004DC25B /* ReposTableViewController.swift */,
+				0E97B52E1E2D3DC6004DC25B /* RepoDetailTableViewController.swift */,
+				0E97B5321E2D5097004DC25B /* FavoritesTableViewController.swift */,
 				0E97B51A1E2D1E7D004DC25B /* Main.storyboard */,
 				0E97B51D1E2D1E7D004DC25B /* Assets.xcassets */,
 				0E97B51F1E2D1E7D004DC25B /* LaunchScreen.storyboard */,
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E97B5191E2D1E7D004DC25B /* SecondViewController.swift in Sources */,
 				0E97B5151E2D1E7D004DC25B /* AppDelegate.swift in Sources */,
 				0E97B5171E2D1E7D004DC25B /* FirstViewController.swift in Sources */,
+				0E97B52A1E2D22F6004DC25B /* SwiftyJSON.swift in Sources */,
+				0E97B5331E2D5097004DC25B /* FavoritesTableViewController.swift in Sources */,
+				0E97B52F1E2D3DC6004DC25B /* RepoDetailTableViewController.swift in Sources */,
+				0E97B52D1E2D2C47004DC25B /* ReposTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
